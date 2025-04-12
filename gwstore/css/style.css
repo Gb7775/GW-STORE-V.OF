@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #111;
+  color: #f5f5f5;
+}
+
+header {
+  background: #000;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.btn-insta {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background: gold;
+  color: #000;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.menu-icon {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.menu-icon span {
+  display: block;
+  height: 3px;
+  width: 25px;
+  background: #fff;
+  margin: 4px 0;
+}
+
+#sidebar {
+  display: none;
+  background: #222;
+  padding: 20px;
+}
+
+#sidebar.active {
+  display: block;
+}
+
+.catalogo {
+  padding: 30px;
+}
+
+.produtos {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.produto {
+  background: #222;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 150px;
+}
+
+.produto img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.produto-detalhe {
+  text-align: center;
+  padding: 30px;
+}
+
+.produto-detalhe img {
+  width: 200px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #000;
+}
+
+.voltar {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  text-decoration: none;
+  color: gold;
+}
